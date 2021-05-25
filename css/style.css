@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+section{
+    background-image: url("img/fondo.jpg");
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+}
+.container img{
+    width: 100%;
+    height: 100%;
+}
+.cajaizq{
+    width: 70%;
+    height: 80%;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+   
+    border: 1px solid black;
+    margin-top: 90px;
+}
+.cajaprecio{
+    width: 30px;
+    height: 10px;
+    border: 1px solid black;
+    background-color: brown;
+    border-radius: 0.5em;
+    text-align: right;
+    padding: 0.5em 1em;
+    color: white;
+    font-size: 18px;
+    margin-left: 130px;
+    margin-top: 10px;
+}
+#productos{
+    width: 70%;
+    height: 100%;
+    margin-top: 90px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+#pedido{
+    width: 30%;
+    height: 600px;
+    margin-top: 90px;
+    border: solid black 1px;
+    
+}
+.imagenbici{
+    height: 200px;
+}
+.imagenbici img{
+    margin-top: 20px;
+}
+.detalle{
+    margin-top: 50px;
+    padding: 0.5em 1em;
+}
+.genero{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.botonpedido{
+    width: 100%;
+    /* border: 1px solid black; */
+    text-align: center;
+    margin-top: 20px;
+}
+.botonpedido button{
+    width: 70px;
+}
+.opciones{
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+ 
+}
+.cajabici{
+    height: 600px;
+    border: black 1px solid;
+    margin-left: 50px;
+}
+#pedido img{
+    height: 100px;
+    width: 100px;
+}
